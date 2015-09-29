@@ -1,0 +1,48 @@
+{
+  "name": "ray-aabb-intersection",
+  "version": "1.0.0",
+  "description": "Determine the point of intersection between a ray and axis-aligned bounding box (AABB)",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "https://github.com/hughsk"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "budo": "^5.1.0",
+    "garnish": "^3.2.1",
+    "gl-vec3": "^1.0.3",
+    "raf": "^3.1.0",
+    "standard": "^5.3.1",
+    "touch-position": "^1.0.3"
+  },
+  "scripts": {
+    "start": "budo demo.js:bundle.js | garnish",
+    "bundle": "browserify demo.js -o bundle.js",
+    "test": "standard index.js demo.js"
+  },
+  "keywords": [
+    "aabb,",
+    "axis,",
+    "aligned,",
+    "bounding,",
+    "box,",
+    "cube,",
+    "ray,",
+    "line,",
+    "collision,",
+    "intersection",
+    "ecosystem:stackgl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/ray-aabb-intersection.git"
+  },
+  "homepage": "https://github.com/stackgl/ray-aabb-intersection",
+  "bugs": {
+    "url": "https://github.com/stackgl/ray-aabb-intersection/issues"
+  }
+}
