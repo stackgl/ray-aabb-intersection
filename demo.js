@@ -78,3 +78,7 @@ window.addEventListener('resize'
   , require('canvas-fit')(canvas)
   , false
 )
+
+canvas.addEventListener('touchstart', function (ev) {
+  ev.preventDefault()
+})
