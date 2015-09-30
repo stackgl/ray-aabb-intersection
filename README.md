@@ -42,7 +42,7 @@ Note that the `direction` vector should be normalized.
 * [ray-aabb](http://github.com/tmpvar/ray-aabb) — faster, but doesn't provide the point of intersection.
 * [ray-sphere-intersection](http://github.com/mattdesl/ray-sphere-intersection)
 * [ray-plane-intersection](http://github.com/mattdesl/ray-plane-intersection)
-* [ray-triangle-intersection](http://github.com/mattdesl/ray-triangle-intersection)
+* [ray-triangle-intersection](http://github.com/substack/ray-triangle-intersection)
 * [camera-picking-ray](https://github.com/Jam3/camera-picking-ray)
 
 ## License
