@@ -1,6 +1,6 @@
 {
   "name": "ray-aabb-intersection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine the point of intersection between a ray and axis-aligned bounding box (AABB)",
   "main": "index.js",
   "license": "MIT",
