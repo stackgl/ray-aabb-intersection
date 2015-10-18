@@ -39,7 +39,7 @@ Note that the `direction` vector should be normalized.
 
 ## See Also
 
-* [ray-aabb](http://github.com/tmpvar/ray-aabb) — faster, but doesn't provide the point of intersection.
+* [ray-aabb](http://github.com/tmpvar/ray-aabb)
 * [ray-sphere-intersection](http://github.com/mattdesl/ray-sphere-intersection)
 * [ray-plane-intersection](http://github.com/mattdesl/ray-plane-intersection)
 * [ray-triangle-intersection](http://github.com/substack/ray-triangle-intersection)
